@@ -1,0 +1,155 @@
+body {
+ /* background-color: #1F2937; */
+ margin: 0;
+ font-family: 'Montserrat';font-size: 22px;
+ background-color: bisque;
+ 
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 64px;
+    padding-top: 16px;
+}
+
+.header img {
+    max-width: 75px;
+}
+
+.hero img {
+    max-width: 700px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #786043;
+}
+
+.hero .left_side{
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    padding-right: 200px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: bisque;
+    padding-bottom: 32px;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: maroon;
+    margin-bottom: 32px;
+    text-align: center;
+}
+
+.text {
+    font-size: 18px;
+    color: #786043;
+    text-align: center;
+
+}
+
+.undertitle {
+    background-color: lightcoral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #786043;
+    padding: 16px 0 32px;
+}
+
+.info_container {
+    display: flex;
+    justify-content: space-around;
+    background-color: lightcoral;
+    padding-bottom: 32px;
+    gap: 32px;
+}
+
+.info img {
+    border-radius: 50px;
+    max-width: 200px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.quote {
+    padding: 2em 8em;
+    flex-direction: column;
+    background-color: #c1a582;
+    
+}
+.quote_text {
+    font-size: 36px;
+    font-style: italic;
+    padding: 32px;
+    color: maroon;
+}
+
+.author {
+    font-size: 36px;
+    text-align: right;
+    color: maroon;
+
+}
+
+.container_sign {
+    display: flex;
+    justify-content: space-around;
+    padding: 64px;
+    background-color: lightcoral;
+    margin: 50px 200px;
+    padding: 20px 80px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.undertitle_sign {
+    font-size: 28px;
+    font-weight: bolder;
+    color: #786043;
+}
+
+.text_sign {
+    font-size: 16px;
+    color: #786043;
+}
+
+.footer {
+    background-color: #c1a582;
+    padding: 2em;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    background-color: lightcoral;
+    cursor: pointer;
+    padding: 4px 8px;
+    border-radius: 10px;
+    color: #786043;
+    font-weight: bold;
+}
