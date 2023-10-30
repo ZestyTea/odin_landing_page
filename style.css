@@ -78,10 +78,11 @@ a {
 
 .info_container {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     background-color: lightcoral;
     padding-bottom: 32px;
     gap: 32px;
+
 }
 
 .info img {
@@ -91,12 +92,17 @@ a {
 
 .info {
     max-width: 200px;
+    padding: 32px;
 }
 
 .quote {
     padding: 2em 8em;
     flex-direction: column;
     background-color: #c1a582;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
     
 }
 .quote_text {
@@ -104,6 +110,8 @@ a {
     font-style: italic;
     padding: 32px;
     color: maroon;
+    max-width: 1000px;
+    text-align: center;
 }
 
 .author {
@@ -122,6 +130,7 @@ a {
     padding: 20px 80px;
     align-items: center;
     border-radius: 20px;
+    
 }
 
 .undertitle_sign {
